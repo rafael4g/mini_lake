@@ -37,7 +37,7 @@ jobs:
         run: poetry run pytest -v --junitxml=test-result.xml
       
       - name: publish junit results
-        uses: EnricoMi/publish-unit-test-result-action@v1
+        uses: actions/setup-python@v1
         if: always()
         with:
           files: test-result.xml
