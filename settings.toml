@@ -1,0 +1,7 @@
+# this is a TOML document
+title = "MINILAKE"
+name = "minilake"
+
+[database]
+url = "sqlite:///mini_lake.db"
+url2 = "sqlite:///mini_lake.db"
