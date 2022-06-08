@@ -29,7 +29,16 @@ def list_beers(style: Optional[str] = None):
     """lists beers in database."""
     beers = get_beers_from_database()
     table = Table(title="Minilake :beer_mug:")
-    headers = ["id", "name", "style", "flavor", "image", "cost", "rate", "date"]
+    headers = [
+        "id",
+        "name",
+        "style",
+        "flavor",
+        "image",
+        "cost",
+        "rate",
+        "date",
+    ]
     for header in headers:
         table.add_column(header, style="magenta")
     for beer in beers:
