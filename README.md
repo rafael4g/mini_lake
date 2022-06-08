@@ -1,10 +1,8 @@
-# python-week-2022
-
-Template Para a Python Week 2022 - 25 a 29 de Abril na Linux Tips
+# Projeto Mini_lake
 
 ## Instruções
 
-Este repositório é um template de um projeto Python `beerlog`.  
+Este repositório é um template de um projeto Python `beerlog`: Bruno Rocha e Jefferson.  
 
 ## Acompanhamento de aprendizados
 
